@@ -11,4 +11,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\JWT-Authentication-With-RefreshToken.BL\JWT-Authentication-With-RefreshToken.BL.csproj" />
+    <ProjectReference Include="..\JWT-Authentication-With-RefreshToken.EL\JWT-Authentication-With-RefreshToken.EL.csproj" />
+    <ProjectReference Include="..\JWT-Authentication-With-RefreshToken.Utility\JWT-Authentication-With-RefreshToken.Utility.csproj" />
+  </ItemGroup>
+
 </Project>

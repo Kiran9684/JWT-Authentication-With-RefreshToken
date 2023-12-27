@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\JWT-Authentication-With-RefreshToken.DAL\JWT-Authentication-With-RefreshToken.DAL.csproj" />
+    <ProjectReference Include="..\JWT-Authentication-With-RefreshToken.EL\JWT-Authentication-With-RefreshToken.EL.csproj" />
+  </ItemGroup>
+
 </Project>
