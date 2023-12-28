@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace JWT_Authentication_With_RefreshToken.BL
 {
-    public class JWTAuthenticationWithRefreshTokenBL
+    public class JWTAuthenticationWithRefreshTokenBL : IJWTAuthenticationWithRefreshTokenBL
     {
 
     }

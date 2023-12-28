@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace JWT_Authentication_With_RefreshToken.DAL
 {
-    public class JWTAuthenticationWithRefreshTokenDAL
+    public class JWTAuthenticationWithRefreshTokenDAL : IJWTAuthenticationWithRefreshTokenDAL
     {
     }
 }
