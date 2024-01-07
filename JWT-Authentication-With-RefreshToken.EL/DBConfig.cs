@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data.SqlClient;
 
 namespace JWT_Authentication_With_RefreshToken.EL
 {
-    public class AuthenticationRequest
+    public class DBConfig
     {
-        public string UserId { get; set; }
-        public string Password { get; set; }
-        public string Operation { get; set; }
+        public string ConnectionString { get; set; }
+        public string storedProc { get; set; }
     }
 }
